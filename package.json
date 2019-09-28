@@ -1,0 +1,26 @@
+{
+  "name": "bind-with-arguments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rwson/bind-with-arguments.git"
+  },
+  "keywords": [
+    "memoization",
+    "bind",
+    "binding",
+    "react",
+    "preact"
+  ],
+  "author": "rwson <rwson92@gmail.com> (http://blog.rwson.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rwson/bind-with-arguments/issues"
+  },
+  "homepage": "https://github.com/rwson/bind-with-arguments#readme"
+}
