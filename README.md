@@ -1,6 +1,6 @@
 ## bind-with-arguments
 
-彻底解决`React`事件绑定`this`和参数的问题
+彻底解决`React`事件绑定中`this`和参数的问题
 
 ### usage
 
