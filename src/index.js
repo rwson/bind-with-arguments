@@ -17,7 +17,7 @@ const functionMap = {
   }
 };
 
-function bindWithArg(target, name, descriptor) {
+function bindWithArguments(target, name, descriptor) {
     const excutor = target[name];
     const excutorType = {}.toString.call(excutor).slice(8, -1);
     const asyncCall = excutorType === 'AsyncFunction' ? 'Async' : 'Sync';
@@ -27,4 +27,6 @@ function bindWithArg(target, name, descriptor) {
     return Object.assign(target, descriptor, {
         value: functionMap[fnType].bind(null, excutor, target)
     });
-}
+};
+
+export default bindWithArguments;

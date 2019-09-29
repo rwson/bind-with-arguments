@@ -1,11 +1,8 @@
 {
   "name": "bind-with-arguments",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "easily bind events excute context and dynamic arguments in React",
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rwson/bind-with-arguments.git"
@@ -15,7 +12,9 @@
     "bind",
     "binding",
     "react",
-    "preact"
+    "preact",
+    "arguments",
+    "events handler"
   ],
   "author": "rwson <rwson92@gmail.com> (http://blog.rwson.com)",
   "license": "ISC",
