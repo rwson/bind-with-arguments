@@ -13,8 +13,8 @@ import React, { Component } from 'react';
 import bindWithArguments from 'bind-with-arguments';
 
 class Comp extends Component {
-  
-	async loadDdetail(id) {
+
+   async loadDdetail(id) {
 		//	fetch
   }
 
