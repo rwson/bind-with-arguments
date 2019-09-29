@@ -15,7 +15,7 @@ import bindWithArguments from 'bind-with-arguments';
 class Comp extends Component {
 
    async loadDdetail(id) {
-		//	fetch
+     //	fetch
   }
 
   //	异步函数并且有参数
